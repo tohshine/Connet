@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Connet</string>
+
+    <!--Gender-->
+    <string-array name="gender">
+        <item> Male</item>
+        <item>Female</item>
+        <item>Unknown</item>
+    </string-array>
+    <!--Institution-->
+    <string-array name="institutions">
+        <item> Adekunle Ajasin </item>
+        <item> Caritas University</item>
+        <item>  City University</item>
+        <item> Citygate University</item>
+        <item>  Cross River University of Technology</item>
+        <item>  Enugu State University of Science and Technology</item>
+        <item> Federal University, Birnin Kebbi </item>
+        <item>  Federal University Gashua</item>
+        <item> Federal University Gusau</item>
+        <item> Federal University of Dutse </item>
+        <item> Federal University of Petroleum Resource Effurun</item>
+        <item> Federal University of Technology Minna</item>
+        <item> Federal University of Technology Owerri</item>
+        <item> Gombe State University</item>
+        <item> Ibrahim Babangida University</item>
+        <item> Ibrahim Badamasi Babangida University</item>
+        <item> Ignatius Ajuru University of Education </item>
+        <item> Imo State University</item>
+        <item> Institute of Management and Technology</item>
+        <item> Joseph Ayo Babalola University</item>
+        <item> Kaduna State University</item>
+        <item> Kano State University of Science and Technology</item>
+        <item> Kebbi State University of Technology </item>
+        <item> Kogi State University</item>
+        <item> Kwara State University</item>
+        <item> Koladaisi University Ibadan</item>
+        <item>  Ladoke Akintola University of Technology</item>
+        <item> Lagos Business School</item>
+        <item> Lead City University</item>
+        <item> Madonna University </item>
+        <item> Michael Okpara Federal University of Agriculture</item>
+        <item> Modibbo Adama University of Technology</item>
+        <item>Michael and Cecilia Ibru University</item>
+        <item> Mountain Top University</item>
+        <item> Nasarawa State University</item>
+        <item> National Open University of Nigeria</item>
+        <item> Niger Delta University</item>
+        <item> Nigerian Defence Academy</item>
+        <item> Nnamdi Azikiwe University</item>
+        <item> Northwest University</item>
+        <item> Novena University</item>
+        <item> Obafemi Awolowo University</item>
+        <item> Obong University</item>
+        <item> Oduduwa University</item>
+        <item>Olabisi Onabanjo University</item>
+        <item> Ondo State University of Science and Technology</item>
+        <item> Osun State University</item>
+        <item> Pan-Atlantic University</item>
+        <item> Paul University</item>
+        <item> Ritman University</item>
+        <item> Rivers State University</item>
+        <item> Redeemer's University</item>
+        <item>Renaissance University</item>
+        <item>Rhema University</item>
+        <item> Salem University</item>
+        <item> Samuel Adegboyega University</item>
+        <item> Sokoto State University</item>
+        <item>Sule Lamido University</item>
+        <item> Tai Solarin University of Education</item>
+        <item> The University on Idemili</item>
+        <item>University of Abuja</item>
+        <item> University of Ado Ekiti</item>
+        <item> University of Agriculture</item>
+        <item>University of Agriculture</item>
+        <item> University of Ibadan</item>
+        <item> University of Ilorin</item>
+        <item> University of Jos</item>
+        <item> University of Maiduguri</item>
+        <item>University of Mkar</item>
+        <item>University of Uyo</item>
+        <item> Usman Dan Fodio University</item>
+        <item>Wesley University</item>
+        <item>Western Delta University</item>
+        <item> Others</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

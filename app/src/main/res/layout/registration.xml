@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/register_back"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_above="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/register_email"
+        android:gravity="center"
+        android:hint="enter a valid email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+        android:singleLine="true"
+        android:maxLines="1"
+android:layout_marginTop="5dp"
+        android:layout_above="@+id/register"
+        android:layout_alignStart="@+id/register"
+        android:background="@drawable/register_pass"
+        android:gravity="center"
+        android:hint="enter password"
+        android:inputType="textPassword"
+        android:paddingBottom="5dp" />
+
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+
+        android:layout_above="@+id/password"
+        android:layout_alignStart="@+id/email"
+        android:background="@drawable/drop_gender"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/institution"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+
+
+        android:layout_above="@+id/password"
+        android:layout_alignEnd="@+id/email"
+        android:background="@drawable/drop_ins"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="265dp"
+        android:layout_height="48dp"
+
+
+        android:layout_above="@+id/view2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/sign_up_design"
+        android:paddingBottom="5dp"
+        android:text="sign up"
+        android:textAllCaps="false"
+        android:textColor="#e40808" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="68dp"
+        android:background="#ef0707" />
+
+    <Button
+        android:id="@+id/gotoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:text="already a member? sign in."
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:textSize="10dp" />
+
+
+</RelativeLayout>

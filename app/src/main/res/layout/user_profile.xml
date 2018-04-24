@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:listItem="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/profile_back">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:clickable="true"
+        android:layout_height="100dp"
+        android:src="@drawable/defaults"
+        android:layout_margin="25dp"
+        android:id="@+id/profileImage"/>
+
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/institutions"
+        android:layout_alignTop="@+id/gender"
+        android:layout_marginEnd="14dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/username"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/oxygen_bold"
+        android:textColor="#120000"
+        tools:text="M" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/socialMedia"
+        android:textColor="#f2bf05"
+        android:layout_toEndOf="@+id/profileImage"
+        tools:text="Tohshine" />
+
+    <TextView
+        android:id="@+id/socialMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/profileImage"
+        android:layout_marginBottom="16dp"
+        android:layout_toEndOf="@+id/profileImage"
+        tools:text="www.facebook.com/owoeye.tosin" />
+
+    <TextView
+        android:id="@+id/institutions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/profileImage"
+        android:layout_below="@+id/gender"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/oxygen_bold"
+        android:text="Institution:"
+        android:textColor="#130101"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/institutions"
+        android:layout_alignBottom="@+id/institutions"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/institutions"
+        android:paddingBottom="4dp"
+        android:textColor="#cd5e0404"
+        tools:text="olabisi onabanjo university" />
+
+
+    <EditText
+        android:id="@+id/handleUpdate"
+        android:layout_width="300dp"
+       android:singleLine="true"
+        android:maxLength="70"
+
+        android:layout_height="47.5dp"
+        android:layout_alignStart="@+id/institutions"
+        android:layout_below="@+id/school"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:hint="update status"
+        android:paddingBottom="5dp"
+        android:background="@drawable/register_email"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/handleUpdate"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/drop_ins"
+        android:paddingBottom="5dp"
+        android:text="update profile"
+        android:textAllCaps="false"
+        android:textColor="#3333" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button"
+        android:background="#f90606"
+        android:id="@+id/view3" />
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/view3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/advertize"
+        android:id="@+id/imageView" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:id="@+id/advertLayout"
+        tools:listitem="@layout/advert_layout"/>
+
+
+
+
+</RelativeLayout>
